@@ -1,0 +1,255 @@
+button, input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.container {
+  background: url(https://demo.w3layouts.com/demos_new/template_demo/27-02-2019/key-demo_Free/282453819/web/images/bg.jpg) no-repeat top left;
+  max-width: 100%px;
+  height: 630px;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+.container .y {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: -100px;
+}
+
+.container .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.container .text .text2 {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22px;
+}
+
+.container .text .text2 span {
+  padding-top: 13px;
+}
+
+.container .text .text2 h1 {
+  padding-left: 10px;
+}
+
+.container .text ul {
+  margin-left: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 25px;
+}
+
+.container .text ul li a {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.container form {
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  margin-top: 70px;
+  margin-left: 400px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container form p {
+  color: #34495e;
+  font-size: 40px;
+  padding-top: -60px;
+}
+
+.container form .nam1 {
+  padding: 15px;
+}
+
+.container form .nam1 h2 {
+  padding-top: 10px;
+  width: 480px;
+  height: 50px;
+  background: #fc636b;
+  border-radius: 80px;
+}
+
+.container form .password, .container form .username {
+  position: relative;
+  overflow: hidden;
+  padding: 15px;
+  background: transparent;
+}
+
+.container form .password i, .container form .username i {
+  position: absolute;
+  padding-top: 19px;
+  padding-bottom: 11px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 60px;
+  width: 30px;
+  -webkit-border-radius: 80px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius: 80px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-radius: 80px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container form .password input, .container form .username input {
+  padding-left: 80px;
+  width: 480px;
+  height: 30px;
+  color: #333;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 80px;
+}
+
+.container .dung {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .dung a {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 70px;
+}
+
+.container .dung1 {
+  margin-top: -70px;
+  margin-left: 100px;
+}
+
+.container .dung1 h1 {
+  margin-left: 150px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 70px;
+}
+
+.container .haonam .haonam1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 140px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.container .haonam .haonam1 a {
+  color: #fff;
+  padding: 15px;
+}
+
+.container .haonam .haonam2 {
+  margin-left: -10px;
+  font-size: 20px;
+  padding-left: 300px;
+}
+
+.container .haonam .haonam2 a {
+  margin-top: -50px;
+  padding-left: 90px;
+}
+
+.container .gender {
+  margin-top: -40px;
+  margin-bottom: 37px;
+  font-size: 20px;
+  margin-left: -160px;
+}
+
+.container .gender label {
+  margin-right: 20px;
+  margin-top: 200px;
+  margin: 40px;
+}
+
+.container .gender label input {
+  position: relative;
+}
+
+.container .gender label input::after {
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #2ecc71;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.container .gender label input::before {
+  content: ' ';
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  background: white;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.container .gender label input:checked::before {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+/*# sourceMappingURL=thanh1.css.map */
